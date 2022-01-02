@@ -87,6 +87,44 @@
 	height: 340px;
 }
 
+#portfolio-content-container {
+	background: #F9F9F9;
+	height: 200px;
+	width: 700px;
+	opacity: 1;
+	margin-bottom: 45px;
+}
+
+#portfolio-content-image {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width="35%";
+}
+
+#portfolio-content-text {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	width="65%";
+}
+
+.image-float-left {
+	float: left;
+	margin-right: 20px;
+}
+
+.image-float-right {
+	float: right;
+	margin-left: 20px;
+}
+
+.content-default {
+	font-size: 14px;
+	font-family:'KoPub Batang', sans-serif;	
+	line-height: 22px;
+	letter-spacing: -0.95px;
+	color: #707070;
+	opacity: 1;
+}
 
 .separator {
   display: flex;
