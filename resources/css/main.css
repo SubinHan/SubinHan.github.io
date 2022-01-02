@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
 @import url(http://fonts.googleapis.com/earlyaccess/kopubbatang.css);
+@import url(https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap);
 
 #container {
 	width:1200px;
@@ -26,10 +27,6 @@
 #title-logo {
 	float: left;
 	width: 57.5%;
-	text-align:right;
-	letter-spacing: -3.4px;
-	color: #707070;
-	opacity: 1;
 }
 
 #main-container {
@@ -55,7 +52,41 @@
 	letter-spacing: -3.4px;
 	color: #707070;
 	opacity: 1;
+	margin-bottom: 70px;
 }
+
+#resume-container {
+	float: left;
+	width: 33.3%;
+}
+
+#resume-bold {
+	font-size: 16px;
+	text-align: left;
+	font-family: 'Do Hyeon', sans-serif;
+	line-height: 25px;
+	letter-spacing: -0.48px;
+	color: #707070;
+	opacity: 1;
+}
+
+#resume-default {
+	font-size: 14px;
+	font-family:'KoPub Batang', sans-serif;	
+	line-height: 22px;
+	letter-spacing: -0.95px;
+	color: #707070;
+	opacity: 1;
+}
+
+#resume-picture-container {
+	margin-bottom: 24px
+}
+
+#resume-content-container {
+	height: 340px;
+}
+
 
 .separator {
   display: flex;
