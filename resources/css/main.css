@@ -187,8 +187,6 @@ a.image-portfolio:hover
 
 @media screen and (max-width:1300px) {
 	
-	body { background-color: lightgreen; }
-	
 	.container {
 		width:1200px;
 		margin-left:0px;
