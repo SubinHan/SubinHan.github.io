@@ -62,7 +62,6 @@
 
 .resume-bold {
 	font-size: 16px;
-	text-align: left;
 	font-family: 'Do Hyeon', sans-serif;
 	line-height: 25px;
 	letter-spacing: -0.48px;
@@ -246,7 +245,6 @@ a.image-portfolio:hover
 	
 	.resume-bold {
 		font-size: 16px;
-		text-align: left;
 		font-family: 'Do Hyeon', sans-serif;
 		line-height: 25px;
 		letter-spacing: -0.48px;
@@ -344,6 +342,212 @@ a.image-portfolio:hover
 		transition: all 100ms ease-in;
 	
 		border: solid 4px rgba(255,255,255,1);
+	}
+	
+	.mobilehidden{
+      display: none;
+	}
+	
+	.separator {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	}
+	
+	.separator::before,
+	.separator::after {
+	content: '';
+	flex: 1;
+	border-bottom: 1px solid #000;
+	}
+	
+	.separator:not(:empty)::before {
+	margin-right: .25em;
+	}
+	
+	.separator:not(:empty)::after {
+	margin-left: .25em;
+	}
+
+}
+
+@media screen and (max-width:768px) {
+	
+	.container {
+		width:100%;
+		margin-left:20px;
+		margin-right:20px;
+		margin-top:120px;
+		margin-bottom:240px;
+	}
+	
+	.title {
+		clear:both;
+		float:right;
+		width:80%;
+		margin-right:40px;
+		font-size: 50px;
+		font-family:'Jeju Gothic', sans-serif;	
+		text-align:right;
+		letter-spacing: -3.4px;
+		margin-top:30px;
+		color: #707070;
+		opacity: 1;
+	}
+	
+	.title-logo {
+		clear:both;
+		float:right;
+		text-align:right;
+	}
+	
+	.main-container {
+		margin-top: 100px;
+		width: 100%;
+	}
+	
+	.main-content {
+		margin-top: 30px;
+		width: 100%;
+		font-size: 14px;
+		font-family:'KoPub Batang', sans-serif;	
+		line-height: 22px;
+		text-align:left;
+		letter-spacing: -0.95px;
+		color: #707070;
+		opacity: 1;
+	}
+	
+	.content-title {
+		font-size: 38px;
+		font-family:'Jeju Gothic', sans-serif;	
+		letter-spacing: -3.4px;
+		color: #707070;
+		opacity: 1;
+		margin-bottom: 70px;
+	}
+	
+	.resume-region {
+		height:500px;
+	}
+	
+	.resume-container {
+		width: 50%;
+	}
+	
+	.resume-bold {
+		font-size: 16px;
+		font-family: 'Do Hyeon', sans-serif;
+		line-height: 25px;
+		letter-spacing: -0.48px;
+		color: #707070;
+		opacity: 1;
+	}
+	
+	.resume-default {
+		font-size: 14px;
+		font-family:'KoPub Batang', sans-serif;	
+		line-height: 22px;
+		letter-spacing: -0.95px;
+		color: #707070;
+		opacity: 1;
+	}
+	
+	.resume-picture-container {
+		margin-bottom: 24px
+	}
+	
+	.resume-content-container {
+		margin-right:40px;
+		height: 250px;
+	}
+	
+	
+	.portfolio-main-container {
+		background: #2F2F2F;
+		margin-left:-20px;
+		margin-right:-20px;
+	}
+	
+	.portfolio-content-container {
+		background: #F9F9F9;
+		height: 200px;
+		width: 700px;
+		opacity: 1;
+		margin-bottom: 45px;
+	}
+	
+	.portfolio-content-image {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width="35%";
+	}
+	
+	.portfolio-content-text {
+		padding-top: 30px;
+		padding-bottom: 20px;
+		width="65%";
+	}
+	
+	.image-float-left {
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.image-float-right {
+		float: right;
+		margin-left: 20px;
+	}
+	
+	.content-default {
+		font-size: 14px;
+		font-family:'KoPub Batang', sans-serif;	
+		line-height: 22px;
+		letter-spacing: -0.95px;
+		color: #707070;
+		opacity: 1;
+	}
+	
+	.portfolio_grad_start {
+		margin-left:-20px;
+		margin-right:-20px;
+		 background-image: linear-gradient(to bottom, rgba(47, 47, 47, 0), rgba(47,47,47,45%), rgba(47,47,47,80%), rgba(47,47,47,100%));
+	}
+	
+	.portfolio_grad_end {
+		margin-left:-20px;
+		margin-right:-20px;
+		 background-image: linear-gradient(to bottom, rgba(47, 47, 47, 100%), rgba(47,47,47,80%), rgba(47,47,47,45%), rgba(47,47,47,0%));
+	}
+	
+	a.image-portfolio
+	{
+		text-align: center;
+		vertical-align: text-bottom;
+		font-size: 30px;
+	
+		display: inline-block;
+	
+		padding: 0px;
+		margin-bottom:0px;
+	
+		box-sizing: border-box;
+	
+		background: none;
+		background-color: rgba(33,33,33,1);
+		background-repeat: no-repeat;
+		background-position: center;
+		
+		filter: grayscale(100%) contrast(85%);
+	}
+	
+	a.image-portfolio:hover
+	{
+		padding: 0px;
+		margin-bottom: 0px;
+		filter: none;
+	
+		transition: all 100ms ease-in;
 	}
 	
 	.mobilehidden{
